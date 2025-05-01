@@ -1,0 +1,161 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp14199735.jpg);
+     background-size: contain;
+     background-position: center; 
+     background-attachment: fixed;
+     background-color: black;
+     
+   
+}
+
+.chat{
+    background:#222626;
+    border-radius: 1.2rem;
+    border-bottom-left-radius: 0%;
+    /* margin-left: 1rem; */
+    margin: 0.8rem 0 0.8rem 1rem;
+    width: 50%;
+    color: white;
+}
+.msg-box form{
+    text-align: right;
+    
+    
+
+}
+.msg-box{
+    font-size: 1.4rem;
+     
+}
+p{
+    margin-left: 1rem; 
+    
+}
+.from-to{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.from-to p{
+    font-weight: bold;
+    color: #FB5061;
+    font-size:1.25rem;
+    margin-right: 1rem;
+    
+}
+.date-time{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+}
+.date-time p{
+    margin-bottom: 0.2rem;
+    color: #929393;
+}
+h1{
+    color: azure;
+}
+.btn{
+    margin-left: 1rem;
+    width:9rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+}
+button{
+    
+    background: #aa6d6d;
+    color: aliceblue;
+    border-radius: 6px;
+    margin-bottom: 0.2rem;
+    width: 4rem;
+    
+    font-weight: 800;
+    background-color: #b3b3b3;
+    color: black;
+    border: 1px solid black;;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/* CSS */
+.button-85 {
+    width: 8rem;
+    height: 3rem;
+    font-size: 18px;
+  
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
